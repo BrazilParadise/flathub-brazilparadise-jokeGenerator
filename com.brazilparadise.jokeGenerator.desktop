@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Brazil Paradise Joke Generator
+Comment=Generate random jokes about Brazil Paradise
+Exec=run.sh
+Type=Application
+Icon=com.brazilparadise.jokeGenerator
+Categories=Utility;
