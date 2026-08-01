@@ -1,2 +1,3 @@
-# flathub-brazilparadise-jokeGenerator
-Adiboua é um site de divulgação de Pontos turísticos, hospedagens, profissionais e empresas do ramo turístico que ajuda os visitantes a minimizar o tempo de busca pelo lazer ideal.
+Substitui "Brazil Paradise" por "diboua" and atualiza IDs/ícones.
+
+Nota: adicione o arquivo icon.png original na branch se desejar que o logo apareça imediatamente no Flathub. Atualmente este commit atualiza os manifests, nomes e IDs e aponta para icon.png.
