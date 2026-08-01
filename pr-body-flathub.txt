@@ -1,0 +1,25 @@
+Título: Rename Brazil Paradise → diboua, update app-id and add icons
+
+O que foi alterado
+- Substituí todas as instâncias textuais exatas "Brazil Paradise" → "diboua" (case-sensitive) em manifests e metadados.
+- Atualizei application ID de com.brazilparadise.* → com.diboua.* (novo app-id).
+- Atualizei name/summary/description e a URL para https://www.diboua.com.
+- Adicionei icon.png (arquivo original) e variantes (icon-128.png, icon-256.png, icon-512.png, icon-transparent.png) e atualizei referências nos manifests.
+
+Notas importantes
+- A alteração do app-id cria um novo App ID no Flathub; o app anterior permanece com o ID antigo. Se quiser manter o histórico do app antigo, não faça essa alteração ou consulte os maintainers do Flathub.
+
+O que revisar neste PR
+1) Confirme que o app-id com.diboua.jokeGenerator é o desejado.
+2) Verifique se a URL https://www.diboua.com está correta.
+3) Confirme se o ícone aparece corretamente no preview do repositório e nas builds locais.
+
+Como testar (sugestão rápida)
+- Clone o repo e rode (local):
+  - flatpak-builder --force-clean --install-deps-from=flathub build-dir com.diboua.jokeGenerator.yaml
+  - flatpak-builder --run build-dir com.diboua.jokeGenerator.yaml /app/bin/run.sh
+- Verifique o arquivo .desktop que está em /app/share/applications e confirme Exec/Icon.
+
+Se precisar de ajuda eu posso:
+- Gerar ícones otimizados (retina, PNGs com fundo transparente) e substituir nas branches.
+- Ajudar com validação e comandos para CI.
