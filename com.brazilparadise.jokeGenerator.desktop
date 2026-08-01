@@ -3,5 +3,5 @@ Name=diboua
 Comment=Generate random jokes about diboua
 Exec=run.sh
 Type=Application
-Icon=com.diboua.jokeGenerator
+Icon=com.brazilparadise.jokeGenerator
 Categories=Utility;

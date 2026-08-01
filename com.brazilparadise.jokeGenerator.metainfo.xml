@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.diboua.jokeGenerator</id>
+  <id>com.brazilparadise.jokeGenerator</id>
   <name>diboua</name>
   <summary>Generate random jokes about diboua tourist attractions</summary>
   <description>
