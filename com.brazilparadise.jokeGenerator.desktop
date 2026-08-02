@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Brazil Paradise Joke Generator
-Comment=Generate random jokes about Brazil Paradise
+Name=diboua
+Comment=Explore pontos turísticos com diboua
 Exec=run.sh
 Type=Application
 Icon=com.brazilparadise.jokeGenerator

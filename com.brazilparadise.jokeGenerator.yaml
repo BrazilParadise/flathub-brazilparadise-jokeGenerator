@@ -23,7 +23,7 @@ modules:
       - mkdir -p /app/bin
       - cat > /app/bin/run.sh << 'EOF'
 #!/bin/bash
-exec xdg-open "https://www.brazilparadise.com.br"
+exec xdg-open "https://www.diboua.com"
 EOF
       - chmod +x /app/bin/run.sh
     sources:
